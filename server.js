@@ -95,7 +95,9 @@ cron.schedule("15 12 * * *", () => {
   `,
   };
 
-  sendEmail(options).catch((err) => console.error("Error sending email:", err));
+  sendEmail(options).catch((err) =>
+    console.error("Error sendingg email:", err)
+  );
 });
 
 app.get("/", (req, res) => {
