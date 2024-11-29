@@ -81,7 +81,7 @@ cron.schedule("*/1 * * * *", () => {
   console.log("Sending email every 5 minutes...");
   // Define the email options (recipient, subject, etc.)
   const options = {
-    to: "mithagowda007@gmail.com",
+    to: "dawixal963@luxyss.com",
     from: process.env.EMAIL_USER,
     subject: "Scheduled Email Update",
     html: `
