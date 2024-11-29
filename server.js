@@ -77,13 +77,12 @@ const sendEmailToUser = async (options) => {
   console.log("Sent:", mailOptionsTwo);
 };
 
-cron.schedule("*/1 * * * *", () => {
-  console.log("Sending email every 5 minutes...");
-  // Define the email options (recipient, subject, etc.)
+cron.schedule("15 12 * * *", () => {
+  console.log("Sending email every 12:15pm minutes...");
   const options = {
-    to: "dawixal963@luxyss.com",
+    to: "soumarthabanerjee@navneettoptech.com",
     from: process.env.EMAIL_USER,
-    subject: "Scheduled Email Update",
+    subject: "Follow-Up on SDE-1 Interview",
     html: `
     <div style="font-family: Arial, sans-serif; color: #333;">
     <p>Dear Soumartha,</p>
