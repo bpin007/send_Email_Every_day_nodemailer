@@ -77,8 +77,8 @@ const sendEmailToUser = async (options) => {
   console.log("Sent:", mailOptionsTwo);
 };
 
-cron.schedule("0 11 * * *", () => {
-  console.log("Sending email every 11am...");
+cron.schedule("*/1 * * * *", () => {
+  console.log("Sending email every 5 minutes...");
   // Define the email options (recipient, subject, etc.)
   const options = {
     to: "mithagowda007@gmail.com",
