@@ -39,7 +39,7 @@ const sendEmail = async (options) => {
 };
 
 // Cron job to send email every Friday at 12:15 pm
-cron.schedule("15 12 * * 5", () => {
+cron.schedule("15 12 1-31/14 * 5", () => {
   console.log("Sending email every Friday at 12:15pm...");
   const options = {
     to: "soumarthabanerjee@navneettoptech.com",

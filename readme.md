@@ -15,3 +15,7 @@ This API sends weekly emails to the employer until I get a reply or until I get 
 ### Just for Fun 😂
 
 While the API serves as a humorous way to handle the situation, it also highlights the importance of feedback and communication in the hiring process.
+
+---
+
+As of today, November 29, 2024, I am currently using the API every two weeks. I actually got a reply from the company this time! 🤞 Hope they'll select me for the role!
