@@ -19,3 +19,8 @@ While the API serves as a humorous way to handle the situation, it also highligh
 ---
 
 As of today, November 29, 2024, I am currently using the API every two weeks. I actually got a reply from the company this time! 🤞 Hope they'll select me for the role!
+
+---
+
+I didn't get selected. Day by day, I'm losing hope in my IT career, and I am stopping this API.
+
